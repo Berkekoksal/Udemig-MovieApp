@@ -10,12 +10,6 @@ BRK Movie is a movie search application that lets users explore popular movies a
 - [Screenshots](#-screenshots)
 - [Technologies Used](#-technologies-used)
 - [Installation](#-installation)
-- [API Setup](#-api-setup)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
