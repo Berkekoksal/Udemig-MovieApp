@@ -23,13 +23,15 @@ BRK Movie is a movie search application that lets users explore popular movies a
   - Orange for moderate ratings (5-7.9)
   - Red for low ratings (below 5)
 
-## 🎨 Screenshots
+## 🎨 Screenshots and GIF
 
 ![Homepage](./screenshots/homepage.png)
 _Homepage displaying popular movies_
 
 ![Search Results](./screenshots/search_results.png)
 _Search results for specific movie queries_
+
+![Screen GIF](MovieApp.gif)
 
 ## 🛠️ Technologies Used
 
