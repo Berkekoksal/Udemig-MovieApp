@@ -1,10 +1,11 @@
+import { API_TOKEN } from "./config";
+
 //* API
 const options = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNDQ5ZTI4NTgyODFjYTFiNzJmZjRiOTc0N2JiNDQ2NiIsIm5iZiI6MTcyODg0MTI1NC40MDY1NTQsInN1YiI6IjY3MGJmZTIwNDExMWJlNGYwMjc0YzM3NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6f_ij7Gxn2wabnd2GlHW9yMx_FKPq1YRV8zMqaTrUB0",
+    Authorization: `Bearer ${API_TOKEN}`,
   },
 };
 const apiUrl = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`;
